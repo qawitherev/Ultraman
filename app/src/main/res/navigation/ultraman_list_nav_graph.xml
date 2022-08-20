@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ultraman_list_nav_graph"
+    app:startDestination="@id/ultramanListFragment">
+
+    <fragment
+        android:id="@+id/ultramanListFragment"
+        android:name="com.abing.ultraman.UltramanListFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_ultraman_list">
+        <action
+            android:id="@+id/action_ultramanListFragment_to_ultramanDetailFragment"
+            app:destination="@id/ultramanDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ultramanDetailFragment"
+        android:name="com.abing.ultraman.UltramanDetailFragment"
+        android:label="@string/ultraman_list"
+        tools:layout="@layout/fragment_ultraman_detail" >
+        <argument
+            android:name="ultraman_name"
+            app:argType="string" />
+    </fragment>
+</navigation>

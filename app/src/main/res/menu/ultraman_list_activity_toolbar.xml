@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ultraman_seach_action"
+        android:icon="@drawable/ic_search_ultraman_action"
+        android:title="@string/ultraman_search"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="@string/report_missing_ultraman"
+        android:id="@+id/report_missing_ultraman"
+        android:icon="@drawable/ic_report_missing"
+        app:showAsAction="never"/>
+
+</menu>
