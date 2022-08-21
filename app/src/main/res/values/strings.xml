@@ -32,11 +32,75 @@
     <string name="back_to_list">Back To List</string>
 
 <!--    ultraman_1 detail   -->
-<!--    later add in the ultraman data class -->
     <string name="ultraman_1_synopsis">An alien of justice who came to Earth as an Inter Galactic Defense Force member from Nebula M78 Land of Light, in pursuit of Space Monster Bemular that escaped while being escorted to the Monster Graveyard. After crashing with SSSP member Hayata, Ultraman merged his life with Hayata’s and decided to stay and fight for the peace of the Earth.</string>
     <string name="ultraman_1_height">Height - 40m</string>
     <string name="ultraman_1_weight">Weight - 35,000t</string>
     <string name="ultraman_1_special_move">Spacium Beam - By gathering the Spacium energy that is stored in all over the body into both arms, Ultraman distributes the plus charged energy to the vertically posed right hand and the minus charged energy to the horizontally positioned left hand. By crossing the hands together and making the energy spark, Ultraman emits a powerful white-colored destructive energy beam.</string>
 
+<!--    ultraman_2 detail   -->
+    <string name="ultraman_2_synopsis">A compatriot of Ultraman, who came to Earth to take Ultraman’s body back to their homeland: Nebula M78, when Ultraman was defeated by Space Dinosaur Zetton.
+At that point, he was just a member of the Inter Galactic Defense Force.
+After continuously displaying various brave actions and saving Ultraman, his achievements were recognized and he was appointed as the leader of the Inter Galactic Defense Force.
+He is currently on the same position and owns the second highest rank next to that of Father of Ultra, who is the executive leader of the Inter Galactic Defense Force.
+He also acts as the leader of the "Ultraman Brothers", a group consists of brave and veteran Ultra Heroes who has protected the peace of the universe and has achieved significant accomplishments.</string>
+    <string name="ultraman_2_height">Height - 45m</string>
+    <string name="ultraman_2_weight">Weight - 45,000t</string>
+    <string name="ultraman_2_special_move">M87 Beam</string>
 
+<!--    ultraman_3 detail   -->
+    <string name="ultraman_3_synopsis">An alien of justice that visited Earth from Nebula M78 Land of Light. Ultraseven was deeply touched by the act of self-sacrifice of a young earthling who was so considerate of others and gave his life to save his friend, thus Ultraseven decided to stay and fight to defend this wonderful planet and life that lives on from alien invaders.</string>
+    <string name="ultraman_3_height">Height - 40m</string>
+    <string name="ultraman_3_weight">Weight - 35,000t</string>
+    <string name="ultraman_3_special_move">Emerium Beam - Emerium energy, which is stored in Ultraseven’s body, is irradiated instantaneously through the Beam Lamp located on the forehead and rapidly destroys the atomic structure of the enemys body.</string>
+
+<!--    ultraman_4 detail   -->
+    <string name="ultraman_4_synopsis">Ultraman Jack came from Nebula M78 Land of Light, also called as the “Land of Ultra,” to defend Earth from alien invasions and monsters awaken from sleep. Ultraman Jack skillfully uses the versatile weapon Ultra Bracelet which was given by Ultraseven.
+Ultraman Jack takes the human form of Hideki Go who is a member of the Monster Attack Team “MAT” on Earth.</string>
+    <string name="ultraman_4_height">Height - 40m</string>
+    <string name="ultraman_4_weight">Weight - 35,000t</string>
+    <string name="ultraman_4_special_move">Spacium Beam - Same as the first Ultraman who came to Earth, Spacium Energy, which is stored in all over the body, is gathered into both arms and a white-colored destructive beam is shot from the right hand after arms arranged in a cross shape. His proud destructive power is as great as the Spacium Beam of the first Ultraman.</string>
+
+<!--    ultraman_5 detail   -->
+    <string name="ultraman_5_synopsis">Ultraman Ace is a warrior who is said to have particularly many variations of beam moves and psychic abilities among Ultra Heroes. He is second to none, especially in the variety of beam cutters using beam cutters, hence Ultraman Ace is also known as “The Ace of Beam Cutters.” He has two energy sources; one is the Color Timer located on his chest and the other is the Ultra Star located on his forehead. Therefore he is considered to be able to use twice as much energy as other Ultra Heroes so far.</string>
+    <string name="ultraman_5_height">Height - 40m</string>
+    <string name="ultraman_5_weight">Weight - 45,000t</string>
+    <string name="ultraman_5_special_move">Metalium Beam - Metalium Beam is the most frequently used super attack beam of Ultraman Ace. Metalium Beam is shot from his right arm when both arms are arranged in an L-shape. Just before firing, he twists his upper body widely to his left rear while extending his arms to the left. The pose while shooting Metalium Beam is the same as Ultraseven’s Wide Shot, but Metalium Beam is perceived to be more powerful than Wide Shot.</string>
+
+
+<!--    ultraman_6 detail   -->
+    <string name="ultraman_6_synopsis">Ultraman Taro is the biological child between Father of Ultra and Mother of Ultra. He is the sixth of the Ultraman Brothers and has horns, that are called “Ultra Horn” on his head and “Taro Bracelet” on his left wrist. Later, Mother of Ultra grants King Bracelet to Taro. His overall strength is extremely high and his combat capability is far superior to any of his brothers.</string>
+    <string name="ultraman_6_height">Height - 53m</string>
+    <string name="ultraman_6_weight">Weight - 55,000t</string>
+    <string name="ultraman_6_special_move">Strium Beam - Strium Beam is Taro’s most powerful beam attack shot from both arms arranged in a T-shape, while shouting “Strium Beam” out loud after absorbing energy in the atmosphere to the body. Before the beam is shot out, Ultraman Taro raises his arm and make a series of movements to gather the energy required. It is said to be twenty times more powerful than Ultraman Ace’s Metalium Beam and has defeated countless monsters.</string>
+
+<!--    ultraman_7 detail   -->
+    <string name="ultraman_7_synopsis">Father of Ultra is the peace-keeping guardian of the galaxy and the executive leader of the Inter Galactic Defense Force.
+He gains respect for being a veteran warrior who has battled out the legendary Great Ultra Wars, which triggered the establishment of the Inter Galactic Defense Force.</string>
+    <string name="ultraman_7_height">Height - 45m</string>
+    <string name="ultraman_7_weight">Weight - 50,000t</string>
+    <string name="ultraman_7_special_move">Father Shot - No extra available detail</string>
+
+<!--    ultraman_8 detail   -->
+    <string name="ultraman_8_synopsis">Leader of Silver Cross Aid, a relief unit of the Land of Light, she is respected by all as a mother figure. She′s the wife of the Father of Ultra and the mother of Ultraman Taro. She kindly watches over the warriors who face harsh battles. During the Great Ultra War, she met and cared for the Father of Ultra, bringing them together.</string>
+    <string name="ultraman_8_height">Height - 40m</string>
+    <string name="ultraman_8_weight">Weight - 32,000t</string>
+    <string name="ultraman_8_special_move">Mother Beam - No extra available detail</string>
+
+<!--    ultraman_9 detail   -->
+    <string name="ultraman_9_synopsis">Ultraman Leo is an alien from Planet L77 of constellation Leo. He grew up with his brother Astra on Planet L77. However, after Planet L77 was destroyed under the attack of Alien Magma, Black Giras and Red Giras, he escaped all alone to Earth. On Earth, he was living as a human being named “Gen Otori”, working at the Jonan Sports Center. When Ultraseven was driven into a corner by Alien Magma and others which appeared on Earth for invation, he transformed into Ultraman Leo and saved Ultraseven. From then on, he joined MAC, and took up the duty of defending Earth in place of Ultraseven who lost the ability to transform.</string>
+    <string name="ultraman_9_height">Height - 52m</string>
+    <string name="ultraman_9_weight">Weight - 48,000t</string>
+    <string name="ultraman_9_special_move">Leo Kick - Leo Kick is a steep drop-kick that is delivered with the foot, which energy from the whole body is gathered into, after jumping 1,000m high up in the air. The foot of Ultraman Leo is enveloped in its characteristic red flame of concentrated energy. This special move is the most favorite move of Ultraman Leo.</string>
+
+<!--    ultraman_10 detail  -->
+    <string name="ultraman_10_synopsis">Astra is the younger twin brother of Ultraman Leo. He grew up with Ultraman Leo on Planet L77 of constellation Leo, however they were separated during the destruction of Planet L77 caused by Alien Magma’s invasion. Astra was held captive by Alien Magma, yet he was rescued by Ultraman King. Then Astra rushed to Earth where Ultraman Leo was facing an uphill battle against Brother Monsters Gallon and Little. Astra and Ultraman Leo defeated the monsters together with Combination Beam, “Ultra Double Flasher”. The Magmatic Chain strapped on his left thigh was put on by Alien Magma, which even Ultraman King can not break.</string>
+    <string name="ultraman_10_height">Height - 50m</string>
+    <string name="ultraman_10_weight">Weight - 49,000t</string>
+    <string name="ultraman_10_special_move">Ultra Double Slasher and Double Chop</string>
+
+<!--    placeholder -->
+<!--    <string name="ultraman_3_synopsis"></string>-->
+<!--    <string name="ultraman_3_height"></string>-->
+<!--    <string name="ultraman_3_weight"></string>-->
+<!--    <string name="ultraman_3_special_move"></string>-->
 </resources>
