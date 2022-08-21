@@ -20,7 +20,7 @@
         android:label="@string/ultraman_list"
         tools:layout="@layout/fragment_ultraman_detail" >
         <argument
-            android:name="ultraman_name"
+            android:name="ultramanName"
             app:argType="string" />
     </fragment>
 </navigation>

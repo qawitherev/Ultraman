@@ -10,6 +10,18 @@ import com.abing.ultraman.databinding.FragmentUltramanDetailBinding
 class UltramanDetailFragment : Fragment() {
     private var _binding: FragmentUltramanDetailBinding? = null
     private val binding get() = _binding!!
+    private lateinit var ultraman: String
+
+    companion object {
+        val ULTRAMAN = "ultramanName"
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        arguments?.let {
+            ultraman = it.getString(ULTRAMAN).toString()
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -18,6 +30,10 @@ class UltramanDetailFragment : Fragment() {
     ): View? {
         _binding = FragmentUltramanDetailBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.ultramanHeight.text = ultraman
     }
 
     override fun onDestroyView() {

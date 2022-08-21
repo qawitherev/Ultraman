@@ -2,10 +2,12 @@ package com.abing.ultraman.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.abing.ultraman.R
+import com.abing.ultraman.UltramanListFragmentDirections
 import com.abing.ultraman.databinding.UltramanItemBinding
 import com.abing.ultraman.model.Ultraman
 
@@ -22,9 +24,14 @@ class UltramanAdapter(private val context: Context, private val dataset: List<Ul
         holder.binding.ultramanImage.setImageResource(ultraman.ultramanImage)
         holder.binding.ultramanName.text = context.resources.getString(ultraman.ultramanName)
         holder.binding.ultramanCard.setOnClickListener {
-            it.findNavController().navigate(R.id.action_ultramanListFragment_to_ultramanDetailFragment)
+//            it.findNavController().navigate(R.id.action_ultramanListFragment_to_ultramanDetailFragment)
+            val action = UltramanListFragmentDirections.actionUltramanListFragmentToUltramanDetailFragment(
+                ultramanName = holder.binding.ultramanName.toString()
+            )
+            it.findNavController().navigate(action)
         }
     }
+
 
     override fun getItemCount(): Int {
         return dataset.size
