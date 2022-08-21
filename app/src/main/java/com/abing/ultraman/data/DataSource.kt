@@ -5,7 +5,7 @@ import com.abing.ultraman.model.Ultraman
 
 class DataSource {
     fun loadData(): List<Ultraman> {
-        return listOf<Ultraman>(
+        return listOf(
             Ultraman(R.string.ultraman_name_1, R.drawable.ultraman_1,R.string.ultraman_1_synopsis, R.string.ultraman_1_height, R.string.ultraman_1_weight, R.string.ultraman_1_special_move),
             Ultraman(R.string.ultraman_name_2, R.drawable.ultraman_2, R.string.ultraman_2_synopsis, R.string.ultraman_2_height, R.string.ultraman_2_weight, R.string.ultraman_2_special_move),
             Ultraman(R.string.ultraman_name_3, R.drawable.ultraman_3, R.string.ultraman_3_synopsis, R.string.ultraman_3_height, R.string.ultraman_3_weight, R.string.ultraman_3_special_move),

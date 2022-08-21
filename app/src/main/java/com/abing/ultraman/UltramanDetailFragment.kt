@@ -5,12 +5,17 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.abing.ultraman.data.DataSource
 import com.abing.ultraman.databinding.FragmentUltramanDetailBinding
+import com.abing.ultraman.model.Ultraman
+import kotlin.properties.Delegates
 
 class UltramanDetailFragment : Fragment() {
     private var _binding: FragmentUltramanDetailBinding? = null
     private val binding get() = _binding!!
     private lateinit var ultraman: String
+    private val ultramanData = DataSource().loadData()
+    private lateinit var selectedUltraman: Ultraman
 
     companion object {
         val ULTRAMAN = "ultramanName"
@@ -21,6 +26,9 @@ class UltramanDetailFragment : Fragment() {
         arguments?.let {
             ultraman = it.getString(ULTRAMAN).toString()
         }
+//        for (ultra in ultramanData) {
+//            if (ULTRAMAN.equals(ultra.ultramanName))
+//                selectedUltraman = ultra
     }
 
     override fun onCreateView(
@@ -33,7 +41,7 @@ class UltramanDetailFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.ultramanHeight.text = ultraman
+        binding.ultramanSynopsis.text = ultraman
     }
 
     override fun onDestroyView() {
