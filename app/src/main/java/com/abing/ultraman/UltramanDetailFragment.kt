@@ -26,9 +26,6 @@ class UltramanDetailFragment : Fragment() {
         arguments?.let {
             ultraman = it.getString(ULTRAMAN).toString()
         }
-//        for (ultra in ultramanData) {
-//            if (ULTRAMAN.equals(ultra.ultramanName))
-//                selectedUltraman = ultra
     }
 
     override fun onCreateView(
@@ -41,7 +38,17 @@ class UltramanDetailFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.ultramanSynopsis.text = ultraman
+        for (ultra in ultramanData) {
+            val loopUltraman = requireContext().resources.getString(ultra.ultramanName)
+            if (ultraman == loopUltraman) {
+                selectedUltraman = ultra
+            }
+        }
+        binding.ultramanImage.setImageResource(selectedUltraman.ultramanImage)
+        binding.ultramanSynopsis.text = requireContext().resources.getString(selectedUltraman.ultramanSynopsis)
+        binding.ultramanHeight.text = requireContext().resources.getString(selectedUltraman.ultramanHeight)
+        binding.ultramanWeight.text = requireContext().resources.getString(selectedUltraman.ultramanWeight)
+        binding.ultramanSpecialMove.text = requireContext().resources.getString(selectedUltraman.ultramanSpecMove)
     }
 
     override fun onDestroyView() {
