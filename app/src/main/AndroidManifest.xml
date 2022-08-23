@@ -14,9 +14,13 @@
         android:theme="@style/Theme.Ultraman"
         tools:targetApi="31">
         <activity
+            android:name=".FavUltramanActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".UltramanListActivity"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

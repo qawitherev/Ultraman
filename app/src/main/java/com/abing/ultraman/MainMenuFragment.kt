@@ -23,6 +23,12 @@ class MainMenuFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.allUltramanButton.setOnClickListener { allUltramanActivity() }
+        binding.favouriteUltramanButton.setOnClickListener { favUltraman() }
+    }
+
+    private fun favUltraman() {
+        val intent = Intent(activity, FavUltramanActivity::class.java)
+        startActivity(intent)
     }
 
     override fun onDestroyView() {
@@ -31,7 +37,7 @@ class MainMenuFragment : Fragment() {
     }
 
     private fun allUltramanActivity() {
-        val intent = Intent(getActivity(), UltramanListActivity::class.java)
+        val intent = Intent(activity, UltramanListActivity::class.java)
         startActivity(intent)
     }
 

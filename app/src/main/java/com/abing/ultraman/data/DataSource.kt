@@ -4,6 +4,7 @@ import com.abing.ultraman.R
 import com.abing.ultraman.model.Ultraman
 
 class DataSource {
+    val favUltraman = mutableListOf<Ultraman>()
     fun loadData(): List<Ultraman> {
         return listOf(
             Ultraman(R.string.ultraman_name_1, R.drawable.ultraman_1,R.string.ultraman_1_synopsis, R.string.ultraman_1_height, R.string.ultraman_1_weight, R.string.ultraman_1_special_move),
@@ -17,5 +18,9 @@ class DataSource {
             Ultraman(R.string.ultraman_name_9, R.drawable.ultraman_9, R.string.ultraman_9_synopsis, R.string.ultraman_9_height, R.string.ultraman_9_weight, R.string.ultraman_9_special_move),
             Ultraman(R.string.ultraman_name_10, R.drawable.ultraman_10, R.string.ultraman_10_synopsis, R.string.ultraman_10_height, R.string.ultraman_10_weight, R.string.ultraman_10_special_move),
         )
+    }
+
+    fun loadFavUltraman(): List<Ultraman> {
+        return favUltraman
     }
 }

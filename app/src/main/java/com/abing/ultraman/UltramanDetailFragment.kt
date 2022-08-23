@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.navigation.findNavController
 import com.abing.ultraman.data.DataSource
 import com.abing.ultraman.databinding.FragmentUltramanDetailBinding
 import com.abing.ultraman.model.Ultraman
@@ -44,6 +46,23 @@ class UltramanDetailFragment : Fragment() {
                 selectedUltraman = ultra
             }
         }
+//        set all the views to corresponding clicked ultraman
+        setView()
+        binding.backToListButton.setOnClickListener { backtoList(view) }
+        binding.addToFavButton.setOnClickListener { addToFav() }
+    }
+
+    private fun addToFav() {
+        DataSource().favUltraman.add(selectedUltraman)
+        val selectedFavUltraman = requireContext().resources.getString(selectedUltraman.ultramanName)
+        Toast.makeText(context, "$selectedFavUltraman added to favourite", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun backtoList(view: View) {
+        view.findNavController().navigate(R.id.action_ultramanDetailFragment_to_ultramanListFragment)
+    }
+
+    private fun setView() {
         binding.ultramanImage.setImageResource(selectedUltraman.ultramanImage)
         binding.ultramanSynopsis.text = requireContext().resources.getString(selectedUltraman.ultramanSynopsis)
         binding.ultramanHeight.text = requireContext().resources.getString(selectedUltraman.ultramanHeight)

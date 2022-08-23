@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/activity_fav_ultraman.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/activity_main.xml" value="0.1984375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/activity_ultraman_list.xml" value="0.21666666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/fragment_main_menu.xml" value="0.4868624420401855" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/fav_ultraman_item.xml" value="0.33217993079584773" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/fragment_fav_ultraman.xml" value="0.1984375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/fragment_main_menu.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/fragment_ultraman_detail.xml" value="0.31118314424635335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/fragment_ultraman_list.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Ultraman/app/src/main/res/layout/toolbar.xml" value="0.21666666666666667" />

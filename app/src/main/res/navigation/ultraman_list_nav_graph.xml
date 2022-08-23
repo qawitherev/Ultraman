@@ -25,5 +25,11 @@
         <argument
             android:name="ultramanName"
             app:argType="string" />
+        <action
+            android:id="@+id/action_ultramanDetailFragment_to_ultramanListFragment"
+            app:destination="@id/ultramanListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/ultramanListFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 </navigation>
